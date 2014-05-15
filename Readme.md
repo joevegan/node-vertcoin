@@ -1,16 +1,16 @@
-# node-darkcoin
+# node-vertcoin
 
-node-darkcoin is a simple wrapper for the darkcoin client's JSON-RPC API.
+node-vertcoin is a simple wrapper for the vertcoin client's JSON-RPC API.
 
 ## Install
 
-`npm install node-darkcoin`
+`npm install node-vertcoin`
 
 ## Examples
 
 ### Create client
 ```js
-var client = new darkcoin.Client({
+var client = new vertcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',
@@ -54,18 +54,18 @@ client.cmd(batch, function(err, address) {
 ## SSL
 See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
 
-If you're using this to connect to darkcoind across a network it is highly
+If you're using this to connect to vertcoind across a network it is highly
 recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
-resulting in theft of your darkcoins.
+resulting in theft of your vertcoins.
 
 When enabling `ssl` by setting the configuration option to `true`, the `sslStrict`
 option (verifies the server certificate) will also be enabled by default. It is 
-highly recommended to specify the `sslCa` as well, even if your darkcoind has
+highly recommended to specify the `sslCa` as well, even if your vertcoind has
 a certificate signed by an actual CA, to ensure you are connecting
-to your own darkcoind.
+to your own vertcoind.
 
 ```js
-var client = new darkcoin.Client({
+var client = new vertcoin.Client({
   host: 'localhost',
   port: 15715,
   user: 'username',

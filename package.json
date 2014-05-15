@@ -1,10 +1,10 @@
 {
-  "name": "node-darkcoin",
-  "description": "Communicate with darkcoind via JSON-RPC",
+  "name": "node-vertcoin",
+  "description": "Communicate with vertcoind via JSON-RPC",
   "version": "1.0.2",
   "main": "lib/index.js",
   "keywords": [
-    "darkcoin",
+    "vertcoin",
     "rpc"
   ],
   "author": "Dumitru Glavan <contact@dumitruglavan.com>",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doomhz/node-darkcoin.git"
+    "url": "git://github.com/doomhz/node-vertcoin.git"
   },
   "engines": {
     "node": ">= 0.8.0"
