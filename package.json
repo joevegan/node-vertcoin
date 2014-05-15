@@ -1,7 +1,7 @@
 {
   "name": "node-vertcoin",
   "description": "Communicate with vertcoind via JSON-RPC",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "keywords": [
     "vertcoin",

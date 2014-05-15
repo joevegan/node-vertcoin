@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.13
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/dumitru/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+12 verbose folder .
+13 info prepublish node-vertcoin@1.0.5
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/dumitru/.npm/1f1177db-tar.lock
+16 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+17 verbose lock tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz /Users/dumitru/.npm/8dabe556-09180-0-9803813230246305-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+21 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+22 verbose tar unpack /var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+23 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+24 verbose lock tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package /Users/dumitru/.npm/a42533e2-09180-0-9803813230246305-package.lock
+25 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+26 verbose lock tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz /Users/dumitru/.npm/8dabe556-09180-0-9803813230246305-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry test.js
+31 silly gunzTarPerm extractEntry Readme.md
+32 silly gunzTarPerm extractEntry lib/commands_deprecated.js
+33 silly gunzTarPerm extractEntry lib/index.js
+34 silly gunzTarPerm extractEntry lib/jsonrpc.js
+35 silly gunzTarPerm extractEntry lib/vertcoin_api.js
+36 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+37 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+38 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+39 silly lockFile 8dabe556-09180-0-9803813230246305-tmp-tgz tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/tmp.tgz
+40 verbose tar pack [ '/Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz',
+40 verbose tar pack   '/var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package' ]
+41 verbose tarball /Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+42 verbose folder /var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+43 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+44 verbose lock tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package /Users/dumitru/.npm/a42533e2-09180-0-9803813230246305-package.lock
+45 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+46 verbose lock tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz /Users/dumitru/.npm/a0fb7550--node-vertcoin-1-0-5-package-tgz.lock
+47 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+48 silly lockFile a42533e2-09180-0-9803813230246305-package tar:///var/folders/wl/7kt04jtd7gs_08_l85p44ygr0000gp/T/npm-30708-ByjJQDJr/1400179209180-0.9803813230246305/package
+49 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+50 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+51 silly lockFile 31f0d4a8--npm-node-vertcoin-1-0-5-package /Users/dumitru/.npm/node-vertcoin/1.0.5/package
+52 verbose lock /Users/dumitru/.npm/node-vertcoin/1.0.5/package /Users/dumitru/.npm/31f0d4a8--npm-node-vertcoin-1-0-5-package.lock
+53 silly lockFile 31f0d4a8--npm-node-vertcoin-1-0-5-package /Users/dumitru/.npm/node-vertcoin/1.0.5/package
+54 silly lockFile 31f0d4a8--npm-node-vertcoin-1-0-5-package /Users/dumitru/.npm/node-vertcoin/1.0.5/package
+55 verbose tar unpack /Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+56 silly lockFile 08566fc1--npm-node-vertcoin-1-0-5-package tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package
+57 verbose lock tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package /Users/dumitru/.npm/08566fc1--npm-node-vertcoin-1-0-5-package.lock
+58 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+59 verbose lock tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz /Users/dumitru/.npm/a0fb7550--node-vertcoin-1-0-5-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry test.js
+64 silly gunzTarPerm extractEntry Readme.md
+65 silly gunzTarPerm extractEntry lib/commands_deprecated.js
+66 silly gunzTarPerm extractEntry lib/index.js
+67 silly gunzTarPerm extractEntry lib/jsonrpc.js
+68 silly gunzTarPerm extractEntry lib/vertcoin_api.js
+69 silly lockFile 08566fc1--npm-node-vertcoin-1-0-5-package tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package
+70 silly lockFile 08566fc1--npm-node-vertcoin-1-0-5-package tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package
+71 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+72 silly lockFile a0fb7550--node-vertcoin-1-0-5-package-tgz tar:///Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz
+73 verbose chmod /Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz 644
+74 verbose chown /Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz [ 502, 20 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'node-vertcoin',
+77 silly publish   description: 'Communicate with vertcoind via JSON-RPC',
+77 silly publish   version: '1.0.5',
+77 silly publish   main: 'lib/index.js',
+77 silly publish   keywords: [ 'vertcoin', 'rpc' ],
+77 silly publish   author: { name: 'Dumitru Glavan', email: 'contact@dumitruglavan.com' },
+77 silly publish   dependencies: { deprecate: '~0.1.0' },
+77 silly publish   repository:
+77 silly publish    { type: 'git',
+77 silly publish      url: 'git://github.com/doomhz/node-vertcoin.git' },
+77 silly publish   engines: { node: '>= 0.8.0' },
+77 silly publish   readme: '# node-vertcoin\n\nnode-vertcoin is a simple wrapper for the vertcoin client\'s JSON-RPC API.\n\n## Install\n\n`npm install node-vertcoin`\n\n## Examples\n\n### Create client\n```js\nvar client = new vertcoin.Client({\n  host: \'localhost\',\n  port: 15715,\n  user: \'username\',\n  pass: \'password\'\n});\n```\n\n### Get balance across all accounts with minimum confirmations of 6\n\n```js\nclient.getBalance(\'*\', 6, function(err, balance) {\n  if (err) return console.log(err);\n  console.log(\'Balance:\', balance);\n});\n```\n### Getting the balance directly using `cmd`\n\n```js\nclient.cmd(\'getbalance\', \'*\', 6, function(err, balance){\n  if (err) return console.log(err);\n  console.log(\'Balance:\', balance);\n});\n```\n\n### Batch multiple RPC calls into single HTTP request\n\n```js\nvar batch = [];\nfor (var i = 0; i < 10; ++i) {\n  batch.push({\n    method: \'getnewaddress\',\n    params: [\'myaccount\']\n  });\n}\nclient.cmd(batch, function(err, address) {\n  if (err) return console.log(err);\n  console.log(\'Address:\', address);\n});\n```\n\n## SSL\nSee [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).\n\nIf you\'re using this to connect to vertcoind across a network it is highly\nrecommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials\nresulting in theft of your vertcoins.\n\nWhen enabling `ssl` by setting the configuration option to `true`, the `sslStrict`\noption (verifies the server certificate) will also be enabled by default. It is \nhighly recommended to specify the `sslCa` as well, even if your vertcoind has\na certificate signed by an actual CA, to ensure you are connecting\nto your own vertcoind.\n\n```js\nvar client = new vertcoin.Client({\n  host: \'localhost\',\n  port: 15715,\n  user: \'username\',\n  pass: \'password\',\n  ssl: true,\n  sslStrict: true,\n  sslCa: fs.readFileSync(__dirname + \'/server.cert\')\n});\n```\n\nIf your using a self signed certificate generated with something like \n\n`openssl x509 -req -days 365 -in server.cert -signkey server.key -out server.cert`\n\nthen `sslStrict` should be set to `false` because by defult node wont work with \nuntrusted certificates. \n',
+77 silly publish   readmeFilename: 'Readme.md',
+77 silly publish   bugs: { url: 'https://github.com/doomhz/node-vertcoin/issues' },
+77 silly publish   homepage: 'https://github.com/doomhz/node-vertcoin',
+77 silly publish   _id: 'node-vertcoin@1.0.5',
+77 silly publish   dist: { shasum: 'c2f4a2b6f7202a65fc46dc11e81d55d57dd7240b' },
+77 silly publish   _from: '.' }
+78 verbose url raw node-vertcoin
+79 verbose url resolving [ 'https://registry.npmjs.org/', './node-vertcoin' ]
+80 verbose url resolved https://registry.npmjs.org/node-vertcoin
+81 info trying registry request attempt 1 at 20:40:09
+82 http PUT https://registry.npmjs.org/node-vertcoin
+83 http 201 https://registry.npmjs.org/node-vertcoin
+84 verbose url raw node-vertcoin
+85 verbose url resolving [ 'https://registry.npmjs.org/', './node-vertcoin' ]
+86 verbose url resolved https://registry.npmjs.org/node-vertcoin
+87 info trying registry request attempt 1 at 20:40:10
+88 http GET https://registry.npmjs.org/node-vertcoin
+89 http 200 https://registry.npmjs.org/node-vertcoin
+90 verbose uploading [ 'node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497',
+90 verbose uploading   '/Users/dumitru/.npm/node-vertcoin/1.0.5/package.tgz' ]
+91 verbose url raw node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497
+92 verbose url resolving [ 'https://registry.npmjs.org/',
+92 verbose url resolving   './node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497' ]
+93 verbose url resolved https://registry.npmjs.org/node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497
+94 info trying registry request attempt 1 at 20:40:10
+95 http PUT https://registry.npmjs.org/node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497
+96 http 409 https://registry.npmjs.org/node-vertcoin/-/node-vertcoin-1.0.5.tgz/-rev/13-dc6081f3443dbf39de076b0e370ca497
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Darwin 13.1.0
+99 error command "node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/dumitru/Sites/node-vertcoin
+101 error node -v v0.10.21
+102 error npm -v 1.3.13
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
